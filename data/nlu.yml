@@ -1,0 +1,136 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - morning
+    - heyy
+    - hello bot
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - yo
+    - yo wassup
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - Aight
+    - ttyl
+    - talk to you later
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - bye bot
+    - it was nice talking to you
+    - later
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - great
+    - cool
+    - correct
+    - right
+    - ya
+    - yee
+    - yup
+
+- intent: deny
+  examples: |
+    - no
+    - nah
+    - n
+    - never
+    - nope
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+    - no please
+    - No, not really
+    - No thanks
+    - no thank you
+    - nevermind
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: initial
+  examples: |
+    - Hey! I want to go on vacation
+    - let's go on vacation
+    - I am planning to go on a holiday
+    - Can you suggest me a holiday destination
+    - Where should i go for my next vacation
+    - Where should I go during my holidays
+    - I want to go on a break
+
+- intent: location
+  examples: |
+    - I want to travel to [LA] (location)
+
+- intent: location_weather
+  examples: |
+    - What is the weather like in [LA] (location)
+    - hows weather in [Las Vegas] (location)
+    - temperature in [Seattle] (location)
+    - what are weather condition like in [Portland] (location) 
